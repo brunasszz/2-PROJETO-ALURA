@@ -1,0 +1,53 @@
+body {
+    background-color: #414742; /* Cor de fundo escura */
+    color: rgb(254, 255, 255); /* Cor do texto */
+    font-family: "Caveat", cursive; /* Fonte estilizada */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total da tela */
+    margin: 0;
+    padding: 20px; /* Adiciona um pouco de espaço nas bordas */
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura */
+}
+
+button {
+    background-color: rgb(54, 61, 46); /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    font-family: "Geist", sans-serif; /* Fonte do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transições suaves */
+}
+
+button:hover {
+    background-color: rgb(85, 180, 7); /* Cor de fundo ao passar o mouse */
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.passo {
+    display: none; /* Esconde os passos por padrão */
+}
+
+.passo.ativo {
+    display: block; /* Mostra o passo ativo */
+}
+
+main {
+    text-align: center; /* Centraliza o texto */
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: auto; /* Centraliza o main na tela */
+    padding: 20px; /* Adiciona espaço interno */
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidade */
+}
+
+img {
+    max-width: 90%; /* Largura máxima das imagens */
+    border-radius: 10px; /* Bordas arredondadas nas imagens */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Sombra nas imagens */
+    margin: 10px 0; /* Margem vertical nas imagens */
+}
